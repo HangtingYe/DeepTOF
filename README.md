@@ -1,6 +1,7 @@
 # DeepTOF
 
 |Variants | BP | PF|
+|---------|----|---|
 |DeepTOF  | 0.4394 | 0.4798
 |DeepTOF w/o C | -0.0219 | -0.0372|
 |DeepTOF w/o M | -0.0370 | -0.0207|
