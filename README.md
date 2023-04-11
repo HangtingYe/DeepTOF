@@ -32,6 +32,8 @@ missing value (ratio=0.2)
 label noisy mean 0, std 0.3
 treatment bias, surgical (0, 0.1), non (0.7, 0.1)
 missing value (ratio=0.3)
+|Variants | BP | PF|
+|---------|----|---|
 |DeepTOF  | 0.4214 | 0.4724|
 |DeepTOF w/o C | -0.0389 | -0.0423|
 |DeepTOF w/o M | -0.0600 |-0.0471|
