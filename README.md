@@ -54,3 +54,9 @@ missing value (ratio=0.3)
 |DeepTOF w/o C,S | -0.0493 (-11.5%)| -0.0534 (-11.3%)|
 |DeepTOF w/o C,M | -0.0654 (-15.3%)| -0.0475 (-10.1%)|
 |DeepTOF w/o C,M,S | -0.0634 (-14.8%)| -0.0684 (-14.5%)|
+
+average distance between treat and untreat is 1.3605 for full model
+accuracy is 0.5851 for full model
+
+average distance between treat and untreat is 2.4939 for full model
+accuracy is 0.6626 for full model
