@@ -107,7 +107,7 @@ average difference: 0.3623.
 average difference: 1.7109  
 
 ## Feature selector was co-trained with \method to select a different number of features (i.e. $M$ is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using $M$ features as input, the results show the comparison of all model's performance in terms of NRMSE. The best results are highlighted in bold.  
-|            |M=20            |M=30             |M=40             |M=40             |M=50             |M=60             |M=70            |       
+|            |M=20   |M=20    |M=30    |M=30    |M=40    |M=40    |M=50    |M=50    |M=60    |M=60    |M=70    |M=70    |Full    |Full   |       
 |Model       |BP     |PF      |BP      |PF      | BP     |PF      |BP      |PF      |BP      |PF      |BP      |PF      |BP      |PF     |
 |------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-------|
 |Lasso       |0.3407 | 0.3224 | 0.3515 | 0.3360 | 0.3407 | 0.3224 | 0.3400 | 0.3258 | 0.3361 | 0.3203 | 0.3345 | 0.3186 | 0.3343 | 0.3186|
