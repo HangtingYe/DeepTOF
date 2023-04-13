@@ -12,19 +12,19 @@
 |DeepTOF w/o C,M | -0.0225 (-4.9%)| -0.0281 (-5.7%)|
 |DeepTOF w/o C,M,S | -0.0280 (-6.1%)| -0.0365 (-7.5%)|
 
-## label noisy mean 0, std 0.1, treatment bias, surgical (0, 0.1), non (0.5, 0.1) missing value (ratio=0.1)
-|Variants | BP | PF|
-|---------|----|---|
+## label noisy mean 0, std 0.1, treatment bias, surgical (0, 0.1), non (0.5, 0.1) missing value (ratio=0.1)  
+|Variants | BP | PF|  
+|---------|----|---|   
 |DeepTOF  | 0.4394 | 0.4798|
-|DeepTOF w/o C | -0.0219 (-5%) | -0.0372 (-7.8%)|
-|DeepTOF w/o M | -0.0370 (-8.4%)| -0.0207 (-4.3%)|
-|DeepTOF w/o S | -0.0261 (-5.9%)| -0.0339 (-7.1%)|
-|DeepTOF w/o M,S | -0.0366 (-8.3%)| -0.0321 (-6.7%)|
-|DeepTOF w/o C,S | -0.0231 (-5.3%)| -0.0446 (-9.3%)|
-|DeepTOF w/o C,M | -0.0475 (-10.8%)| -0.0530 (-11%)|
-|DeepTOF w/o C,M,S | -0.0489 (-11.1%)| -0.0597 (-12.4%)|
+|DeepTOF w/o C | -0.0219 (-5%) | -0.0372 (-7.8%)|    
+|DeepTOF w/o M | -0.0370 (-8.4%)| -0.0207 (-4.3%)|   
+|DeepTOF w/o S | -0.0261 (-5.9%)| -0.0339 (-7.1%)| 
+|DeepTOF w/o M,S | -0.0366 (-8.3%)| -0.0321 (-6.7%)|  
+|DeepTOF w/o C,S | -0.0231 (-5.3%)| -0.0446 (-9.3%)|  
+|DeepTOF w/o C,M | -0.0475 (-10.8%)| -0.0530 (-11%)|  
+|DeepTOF w/o C,M,S | -0.0489 (-11.1%)| -0.0597 (-12.4%)|  
 
-## label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)
+## label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)    
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4312 | 0.4751|
@@ -37,16 +37,16 @@
 |DeepTOF w/o C,M,S | -0.0532 (-12.3%)| -0.0642 (-13.5%)|
 
 ## label noisy mean 0, std 0.3 treatment bias, surgical (0, 0.1), non (0.7, 0.3) missing value (ratio=0.3)
-|Variants | BP | PF|
-|---------|----|---|
-|DeepTOF  | 0.4284 | 0.4724|
-|DeepTOF w/o C | -0.0389 (-9.1%)| -0.0423 (-9%)|
-|DeepTOF w/o M | -0.0600 (-14%)|-0.0471 (-10%)|
-|DeepTOF w/o S | -0.0592 (-13.8%)| -0.0553 (-11.7%)|
-|DeepTOF w/o M,S | -0.0442 (-10.3%)| -0.0586 (-12.4%)|
-|DeepTOF w/o C,S | -0.0493 (-11.5%)| -0.0534 (-11.3%)|
-|DeepTOF w/o C,M | -0.0654 (-15.3%)| -0.0475 (-10.1%)|
-|DeepTOF w/o C,M,S | -0.0634 (-14.8%)| -0.0684 (-14.5%)|
+|Variants | BP | PF|.  
+|---------|----|---|.  
+|DeepTOF  | 0.4284 | 0.4724|.  
+|DeepTOF w/o C | -0.0389 (-9.1%)| -0.0423 (-9%)|  
+|DeepTOF w/o M | -0.0600 (-14%)|-0.0471 (-10%)|  
+|DeepTOF w/o S | -0.0592 (-13.8%)| -0.0553 (-11.7%)|    
+|DeepTOF w/o M,S | -0.0442 (-10.3%)| -0.0586 (-12.4%)|    
+|DeepTOF w/o C,S | -0.0493 (-11.5%)| -0.0534 (-11.3%)|    
+|DeepTOF w/o C,M | -0.0654 (-15.3%)| -0.0475 (-10.1%)|   
+|DeepTOF w/o C,M,S | -0.0634 (-14.8%)| -0.0684 (-14.5%)|   
 
 average distance between treat and untreat is 1.3605 for full model. 
 accuracy is 0.5851 for full model. 
