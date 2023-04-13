@@ -24,10 +24,7 @@
 |DeepTOF w/o C,M | -0.0475 (-10.8%)| -0.0530 (-11%)|
 |DeepTOF w/o C,M,S | -0.0489 (-11.1%)| -0.0597 (-12.4%)|
 
-
-label noisy mean 0, std 0.2
-treatment bias, surgical (0, 0.1), non (0.6, 0.2)
-missing value (ratio=0.2)
+## label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4312 | 0.4751|
@@ -39,9 +36,7 @@ missing value (ratio=0.2)
 |DeepTOF w/o C,M | -0.0520 (-12.1%)| -0.0568 (-12%)|
 |DeepTOF w/o C,M,S | -0.0532 (-12.3%)| -0.0642 (-13.5%)|
 
-label noisy mean 0, std 0.3
-treatment bias, surgical (0, 0.1), non (0.7, 0.3)
-missing value (ratio=0.3)
+## label noisy mean 0, std 0.3 treatment bias, surgical (0, 0.1), non (0.7, 0.3) missing value (ratio=0.3)
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4284 | 0.4724|
@@ -53,11 +48,11 @@ missing value (ratio=0.3)
 |DeepTOF w/o C,M | -0.0654 (-15.3%)| -0.0475 (-10.1%)|
 |DeepTOF w/o C,M,S | -0.0634 (-14.8%)| -0.0684 (-14.5%)|
 
-average distance between treat and untreat is 1.3605 for full model
-accuracy is 0.5851 for full model
+average distance between treat and untreat is 1.3605 for full model. 
+accuracy is 0.5851 for full model. 
 
-average distance between treat and untreat is 2.4939 for full model
-accuracy is 0.6626 for full model
+average distance between treat and untreat is 2.4939 for full model. 
+accuracy is 0.6626 for full model. 
 
 
 |FIELD1|surgical          |nonsurgical       |
@@ -83,7 +78,7 @@ accuracy is 0.6626 for full model
 |18    |16.0615           |16.9596           |
 |19    |11.2941           |11.1299           |
 
-average difference: 0.3623
+average difference: 0.3623. 
 
 |FIELD1|surgical          |nonsurgical       |
 |------|------------------|------------------|
@@ -108,4 +103,4 @@ average difference: 0.3623
 |18    |15.15091705       |17.04966736       |
 |19    |13.21783066       |10.31321049       |
 
-average difference: 1.7109
+average difference: 1.7109  
