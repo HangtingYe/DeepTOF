@@ -24,6 +24,7 @@
 |DeepTOF w/o C,M | -0.0475 (-10.8%)| -0.0530 (-11%)|  
 |DeepTOF w/o C,M,S | -0.0489 (-11.1%)| -0.0597 (-12.4%)|  
 
+
 ## label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)    
 |Variants | BP | PF|
 |---------|----|---|
@@ -37,8 +38,8 @@
 |DeepTOF w/o C,M,S | -0.0532 (-12.3%)| -0.0642 (-13.5%)|
 
 ## label noisy mean 0, std 0.3 treatment bias, surgical (0, 0.1), non (0.7, 0.3) missing value (ratio=0.3)
-|Variants | BP | PF|.  
-|---------|----|---|.  
+|Variants | BP | PF|  
+|---------|----|---|  
 |DeepTOF  | 0.4284 | 0.4724|.  
 |DeepTOF w/o C | -0.0389 (-9.1%)| -0.0423 (-9%)|  
 |DeepTOF w/o M | -0.0600 (-14%)|-0.0471 (-10%)|  
