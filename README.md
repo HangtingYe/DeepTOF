@@ -1,6 +1,6 @@
 # DeepTOF
 
-real data
+## real data
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4596 | 0.4890|
@@ -12,9 +12,7 @@ real data
 |DeepTOF w/o C,M | -0.0225 (-4.9%)| -0.0281 (-5.7%)|
 |DeepTOF w/o C,M,S | -0.0280 (-6.1%)| -0.0365 (-7.5%)|
 
-label noisy mean 0, std 0.1
-treatment bias, surgical (0, 0.1), non (0.5, 0.1)
-missing value (ratio=0.1)
+## label noisy mean 0, std 0.1, treatment bias, surgical (0, 0.1), non (0.5, 0.1) missing value (ratio=0.1)
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4394 | 0.4798|
