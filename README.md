@@ -1,6 +1,6 @@
 # DeepTOF
 
-## real data
+## Result 1: real data (revision of table 5 in orginal paper)
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4596 | 0.4890|
@@ -12,7 +12,8 @@
 |DeepTOF w/o C,M | -0.0225 (-4.9%)| -0.0281 (-5.7%)|
 |DeepTOF w/o C,M,S | -0.0280 (-6.1%)| -0.0365 (-7.5%)|
 
-## label noisy mean 0, std 0.1, treatment bias, surgical (0, 0.1), non (0.5, 0.1) missing value (ratio=0.1)  
+## Result 2
+### label noisy mean 0, std 0.1, treatment bias, surgical (0, 0.1), non (0.5, 0.1) missing value (ratio=0.1)  
 |Variants | BP | PF|  
 |---------|----|---|   
 |DeepTOF  | 0.4394 | 0.4798|
@@ -25,7 +26,7 @@
 |DeepTOF w/o C,M,S | -0.0489 (-11.1%)| -0.0597 (-12.4%)|  
 
 
-## label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)    
+### label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)    
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4312 | 0.4751|
@@ -37,7 +38,7 @@
 |DeepTOF w/o C,M | -0.0520 (-12.1%)| -0.0568 (-12%)|
 |DeepTOF w/o C,M,S | -0.0532 (-12.3%)| -0.0642 (-13.5%)|
 
-## label noisy mean 0, std 0.3 treatment bias, surgical (0, 0.1), non (0.7, 0.3) missing value (ratio=0.3)
+### label noisy mean 0, std 0.3 treatment bias, surgical (0, 0.1), non (0.7, 0.3) missing value (ratio=0.3)
 |Variants | BP | PF|  
 |---------|----|---|  
 |DeepTOF  | 0.4284 | 0.4724|.  
@@ -105,6 +106,9 @@ average difference: 0.3623.
 |19    |13.21783066       |10.31321049       |
 
 average difference: 1.7109  
+
+## Feature importance of the selected features.  
+each scatter point represents the SHAP value of a single sample. The color of the scatter points represents the value of the corresponding feature for that sample. Red points indicate higher feature values, while blue points indicate lower feature values, with the intensity of the color indicating the magnitude of the feature value.
 
 ## Comparison of all models' predictive performance in terms of Bodily Pain (BP) and Physical Function (PF) with a different number of features. Feature selector was co-trained with DeepTOF to select a different number of features (i.e. M is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using M features as input, the results show the comparison of all models' performance in terms of NRMSE. For each method, NRMSE scores averaged over surgical and nonoperative treatment are reported (lower is better). The reported performance is averaged over 10 independent runs. The best results are highlighted in bold. 
 |            |M=20   |M=20    |M=30    |M=30    |M=40    |M=40    |M=50    |M=50    |M=60    |M=60    |M=70    |M=70    |Full    |Full   |
