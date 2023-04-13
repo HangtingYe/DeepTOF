@@ -106,7 +106,7 @@ average difference: 0.3623.
 
 average difference: 1.7109  
 
-## Feature selector was co-trained with \method to select a different number of features (i.e. $M$ is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using $M$ features as input, the results show the comparison of all model's performance in terms of NRMSE. The best results are highlighted in bold.  
+## Comparison of all models' predictive performance in terms of Bodily Pain (BP) and Physical Function (PF) with a different number of features. Feature selector was co-trained with DeepTOF to select a different number of features (i.e. M is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using M features as input, the results show the comparison of all models' performance in terms of NRMSE. For each method, NRMSE scores averaged over surgical and nonoperative treatment are reported (lower is better). The reported performance is averaged over 10 independent runs. The best results are highlighted in bold. 
 |            |M=20   |M=20    |M=30    |M=30    |M=40    |M=40    |M=50    |M=50    |M=60    |M=60    |M=70    |M=70    |Full    |Full   |
 |------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-------|
 |Model       |BP     |PF      |BP      |PF      | BP     |PF      |BP      |PF      |BP      |PF      |BP      |PF      |BP      |PF     |
