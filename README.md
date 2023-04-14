@@ -108,7 +108,7 @@ average difference: 0.3623.
 average difference: 1.7109  
 
 ## Result 4, Feature importance of the selected features.  
-![image](./feature importance/0.jpg)
+![image](https://raw.githubusercontent.com/HangtingYe/DeepTOF/main/feature%20importance/0.jpg)
 each scatter point represents the SHAP value of a single sample. The color of the scatter points represents the value of the corresponding feature for that sample. Red points indicate higher feature values, while blue points indicate lower feature values, with the intensity of the color indicating the magnitude of the feature value.
 
 ## Comparison of all models' predictive performance in terms of Bodily Pain (BP) and Physical Function (PF) with a different number of features. Feature selector was co-trained with DeepTOF to select a different number of features (i.e. M is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using M features as input, the results show the comparison of all models' performance in terms of NRMSE. For each method, NRMSE scores averaged over surgical and nonoperative treatment are reported (lower is better). The reported performance is averaged over 10 independent runs. The best results are highlighted in bold. 
