@@ -52,7 +52,7 @@
 
 
 ## Result 3
-### Result 3.1, Average representation distance between treated and untreated group by DeepTOF w/ counterfactual modeling
+### Result 3.1, Average representation distance between treated and untreated group by DeepTOF w/ counterfactual modeling, average difference: 0.3623.
 
 |FIELD1|surgical          |nonsurgical       |
 |------|------------------|------------------|
@@ -75,12 +75,10 @@
 |16    |11.0256           |11.3695           |
 |17    |15.2408           |16.0530           |
 |18    |16.0615           |16.9596           |
-|19    |11.2941           |11.1299           |
-
-average difference: 0.3623. 
+|19    |11.2941           |11.1299           | 
 
 
-### Result 3.2, Average representation distance between treated and untreated group by DeepTOF w/o counterfactual modeling
+### Result 3.2, Average representation distance between treated and untreated group by DeepTOF w/o counterfactual modeling, average difference: 1.7109.
 
 |FIELD1|surgical          |nonsurgical       |
 |------|------------------|------------------|
@@ -104,8 +102,7 @@ average difference: 0.3623.
 |17    |14.98858833       |15.77536869       |
 |18    |15.15091705       |17.04966736       |
 |19    |13.21783066       |10.31321049       |
-
-average difference: 1.7109  
+  
 
 ## Result 4, Feature importance of the selected features.  
 ![image](https://raw.githubusercontent.com/HangtingYe/DeepTOF/main/feature%20importance/0.jpg)   
