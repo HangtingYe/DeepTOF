@@ -1,6 +1,6 @@
 # DeepTOF
 
-## Result 1: real data (revision of table 5 in orginal paper), the values in parentheses represent the relative performance decrease.  
+## Result 1: real data (revision of Table 5 in orginal paper), the values in parentheses represent the relative performance decrease.  
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4596 | 0.4890|
