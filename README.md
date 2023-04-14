@@ -108,8 +108,7 @@
 ![image](https://raw.githubusercontent.com/HangtingYe/DeepTOF/main/feature%20importance/0.jpg)   
 Each scatter point represents the SHAP value of a single sample. The color of the scatter points represents the value of the corresponding feature for that sample. Red points indicate higher feature values, while blue points indicate lower feature values, with the intensity of the color indicating the magnitude of the feature value. Since SHAP value provides feature importance for a specific model prediction, we only present one of our outcomes here. For the full predictions explainations, please kindly refer to the file DeepTOF/feature importance. 
 
-## Result 5, NRMSE results.
-Comparison of all models' predictive performance in terms of Bodily Pain (BP) and Physical Function (PF) with a different number of features. Feature selector was co-trained with DeepTOF to select a different number of features (i.e. M is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using M features as input, the results show the comparison of all models' performance in terms of NRMSE. For each method, NRMSE scores averaged over surgical and nonoperative treatment are reported (lower is better). The reported performance is averaged over 10 independent runs. The best results are highlighted in bold.   
+## Result 5, NRMSE results.   
 
 |            |M=20   |M=20    |M=30    |M=30    |M=40    |M=40    |M=50    |M=50    |M=60    |M=60    |M=70    |M=70    |Full    |Full   |
 |------------|-------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|--------|-------|
@@ -121,3 +120,6 @@ Comparison of all models' predictive performance in terms of Bodily Pain (BP) an
 |LightGBM    |0.3440 | 0.3290 | 0.3515 | 0.3401 | 0.3443 | 0.3294 | 0.3431 | 0.3323 | 0.3389 | 0.3275 | 0.3377 | 0.3262 | 0.3383 | 0.3255|
 |ResNet      |0.3272 | 0.3046 | 0.3395 | 0.3239 | 0.3268 | 0.3082 | 0.3262 | 0.3120 | 0.3223 | 0.3060 | 0.3218 | 0.3057 | 0.3230 | 0.3098|
 |DeepTOF     |**0.3098** | **0.2632** | **0.2945** | **0.2757** | **0.3043** | **0.2736** | **0.2845** | **0.2816** | **0.2977** | **0.2860** | **0.2947** | **0.2653** | **0.3012** | **0.2765** |
+
+
+Comparison of all models' predictive performance in terms of Bodily Pain (BP) and Physical Function (PF) with a different number of features. Feature selector was co-trained with DeepTOF to select a different number of features (i.e. M is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using M features as input, the results show the comparison of all models' performance in terms of NRMSE. For each method, NRMSE scores averaged over surgical and nonoperative treatment are reported (lower is better). The reported performance is averaged over 10 independent runs. The best results are highlighted in bold.
