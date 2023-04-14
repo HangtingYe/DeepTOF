@@ -1,6 +1,7 @@
 # DeepTOF
 
 ## Result 1: real data (revision of Table 5 in orginal paper), the values in parentheses represent the relative performance decrease.  
+
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4596 | 0.4890|
@@ -14,6 +15,7 @@
 
 
 ## Result 2 (simulated data), the values in parentheses represent the relative performance decrease.  
+
 ### Task 1: Surgical group: Gaussian noise added with parameters N(0.5, 0.1), Nonoperative group: Gaussian noise added with parameters N(0, 0.1), Labels: Gaussian noise added with parameters N(0, 0.1), Mask ratio: 10%  
 |Variants | BP | PF|  
 |---------|----|---|   
@@ -53,6 +55,7 @@
 
 
 ## Result 3
+
 ### Result 3.1, Average representation distance between treated and untreated group by DeepTOF w/ counterfactual modeling, average difference: 0.3623.
 
 |FIELD1|surgical          |nonsurgical       |
