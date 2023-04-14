@@ -12,8 +12,8 @@
 |DeepTOF w/o C,M | -0.0225 (-4.9%)| -0.0281 (-5.7%)|
 |DeepTOF w/o C,M,S | -0.0280 (-6.1%)| -0.0365 (-7.5%)|
 
-## Result 2
-### label noisy mean 0, std 0.1, treatment bias, surgical (0, 0.1), non (0.5, 0.1) missing value (ratio=0.1)  
+## Result 2 (simulated data)
+### Task 1: Surgical group: Gaussian noise added with parameters N(0.5, 0.1), Nonoperative group: Gaussian noise added with parameters N(0, 0.1), Labels: Gaussian noise added with parameters N(0, 0.1), Mask ratio: 10%  
 |Variants | BP | PF|  
 |---------|----|---|   
 |DeepTOF  | 0.4394 | 0.4798|
@@ -26,7 +26,7 @@
 |DeepTOF w/o C,M,S | -0.0489 (-11.1%)| -0.0597 (-12.4%)|  
 
 
-### label noisy mean 0, std 0.2 treatment bias, surgical (0, 0.1), non (0.6, 0.2) missing value (ratio=0.2)    
+### Task 2: Surgical group: Gaussian noise added with parameters N(0.6, 0.2), Nonoperative group: Gaussian noise added with parameters N(0, 0.1), Labels: Gaussian noise added with parameters N(0, 0.2), Mask ratio: 20%    
 |Variants | BP | PF|
 |---------|----|---|
 |DeepTOF  | 0.4312 | 0.4751|
@@ -38,7 +38,7 @@
 |DeepTOF w/o C,M | -0.0520 (-12.1%)| -0.0568 (-12%)|
 |DeepTOF w/o C,M,S | -0.0532 (-12.3%)| -0.0642 (-13.5%)|
 
-### label noisy mean 0, std 0.3 treatment bias, surgical (0, 0.1), non (0.7, 0.3) missing value (ratio=0.3)
+### Task 3: Surgical group: Gaussian noise added with parameters N(0.7, 0.3), Nonoperative group: Gaussian noise added with parameters N(0, 0.1), Labels: Gaussian noise added with parameters N(0, 0.3), Mask ratio: 30%
 |Variants | BP | PF|  
 |---------|----|---|  
 |DeepTOF  | 0.4284 | 0.4724|.  
@@ -50,12 +50,9 @@
 |DeepTOF w/o C,M | -0.0654 (-15.3%)| -0.0475 (-10.1%)|   
 |DeepTOF w/o C,M,S | -0.0634 (-14.8%)| -0.0684 (-14.5%)|   
 
-average distance between treat and untreat is 1.3605 for full model. 
-accuracy is 0.5851 for full model. 
 
-average distance between treat and untreat is 2.4939 for full model. 
-accuracy is 0.6626 for full model. 
-
+## Result 3
+### Result 3.1, Average representation distance between treated and untreated group by DeepTOF w/ counterfactual modeling
 
 |FIELD1|surgical          |nonsurgical       |
 |------|------------------|------------------|
@@ -82,6 +79,9 @@ accuracy is 0.6626 for full model.
 
 average difference: 0.3623. 
 
+
+### Result 3.2, Average representation distance between treated and untreated group by DeepTOF w/o counterfactual modeling
+
 |FIELD1|surgical          |nonsurgical       |
 |------|------------------|------------------|
 |0     |10.00980568       |12.61927032       |
@@ -107,7 +107,8 @@ average difference: 0.3623.
 
 average difference: 1.7109  
 
-## Feature importance of the selected features.  
+## Result 4, Feature importance of the selected features.  
+
 each scatter point represents the SHAP value of a single sample. The color of the scatter points represents the value of the corresponding feature for that sample. Red points indicate higher feature values, while blue points indicate lower feature values, with the intensity of the color indicating the magnitude of the feature value.
 
 ## Comparison of all models' predictive performance in terms of Bodily Pain (BP) and Physical Function (PF) with a different number of features. Feature selector was co-trained with DeepTOF to select a different number of features (i.e. M is set to 20, 30, 40, 50, 60 and 70, here, full represents 131 features). Using M features as input, the results show the comparison of all models' performance in terms of NRMSE. For each method, NRMSE scores averaged over surgical and nonoperative treatment are reported (lower is better). The reported performance is averaged over 10 independent runs. The best results are highlighted in bold. 
