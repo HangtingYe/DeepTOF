@@ -12,6 +12,7 @@
 |DeepTOF w/o C,M | -0.0225 (-4.9%)| -0.0281 (-5.7%)|
 |DeepTOF w/o C,M,S | -0.0280 (-6.1%)| -0.0365 (-7.5%)|
 
+
 ## Result 2 (simulated data), the values in parentheses represent the relative performance decrease.  
 ### Task 1: Surgical group: Gaussian noise added with parameters N(0.5, 0.1), Nonoperative group: Gaussian noise added with parameters N(0, 0.1), Labels: Gaussian noise added with parameters N(0, 0.1), Mask ratio: 10%  
 |Variants | BP | PF|  
