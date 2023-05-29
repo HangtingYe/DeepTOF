@@ -15,6 +15,9 @@
 
 
 ## Result 2 (simulated data), the values in parentheses represent the relative performance decrease.  
+Simulated data: In our study, we utilized a real-world dataset Spine Patient Outcomes Research Trial (SPORT) and it is hard to to generate hypothetical data using a simulator. In order to increase the difficulty of the task, we intentionally scaled up the challenges, including data bias, data noise, and non-compliance. To induce data bias, we applied distinct Gaussian noise to the surgical and nonoperative groups. For data noise, we added Gaussian noise to the labels. As for non-compliance, we masked a portion of the non-empty labels according to a predefined proportion to increase the quantity of missing values. Based on these modifications, we designed three scenarios with incrementally increasing difficulty.
+
+We acknowledge that these modifications were made to deliberately create more challenging scenarios in our experiments. We believe that these adjustments better reflect the major challenges in spine TOF. It is important to note that these simulated data are solely used to verify the contribution of our proposed models and cannot be used to represent a real patient sample.
 
 ### Task 1: Surgical group: Gaussian noise added with parameters N(0.5, 0.1), Nonoperative group: Gaussian noise added with parameters N(0, 0.1), Labels: Gaussian noise added with parameters N(0, 0.1), Mask ratio: 10%  
 |Variants | BP | PF|  
