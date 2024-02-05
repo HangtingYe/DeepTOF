@@ -454,7 +454,6 @@ def add_noise_to_label(table, mean=0, std=0.3):
     not_none = ~np.isnan(values)
     values[not_none] = values[not_none] + noisy[not_none]
 
-# 对pandas赋值一定要.iloc或者loc, numpy 二级索引无法赋值
 def add_noise_to_input(table, table_1, normalizers):
     index_n = table_1.values.reshape(-1) == 0
     index_s = table_1.values.reshape(-1) == 1
@@ -480,13 +479,9 @@ def add_noise_to_input(table, table_1, normalizers):
 
 
 def replace_with_nan(row, ratio=0.3):
-    # 计算每一行的非空值数量
     non_null_count = row.count()
-    # 计算要替换为 NaN 的数量
     num_to_replace = int(non_null_count * ratio)
-    # 随机选择 num_to_replace 个非空值的索引
     replace_indices = np.random.choice(row.dropna().index, size=num_to_replace, replace=False)
-    # 将选择的索引对应的值替换为 NaN
     row[replace_indices] = np.nan
     return row
 
@@ -524,7 +519,6 @@ def run(args):
         # add_noise_to_input(train_feature['feature'], train_feature['surgical'], normalizers)
         # add_noise_to_input(test_feature['feature'], test_feature['surgical'], normalizers)
 
-        # # 应用自定义函数替换每一行的一定比例的非空值为 NaN
         # train_feature['target'] = train_feature['target'].apply(replace_with_nan, axis=1) 
         # test_feature['target'] = test_feature['target'].apply(replace_with_nan, axis=1) 
 
