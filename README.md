@@ -1,5 +1,12 @@
 # DeepTOF
 
+Official code and data repository of [**DeepTOF**: Web-based Long-term Spine Treatment Outcome Forecasting].
+__Please star, watch, and fork DeepTOF for the active updates!__
+
+## How to train?
+Run DeepTOF
+* ```python main_transformer_harv.py```
+
 ## Result 1: real data (revision of Table 5 in orginal paper), the values in parentheses represent the relative performance decrease.  
 
 |Variants | BP | PF|
